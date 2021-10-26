@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework:spring-context:5.3.4">
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context/build/libs/spring-context-5.3.4.jar!/" />
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.3.4/spring-context-5.3.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context" />
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context/src/jmh/java" />
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context/src/testFixtures/java" />
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,30 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="
+	http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-3.2.xsd"
+    default-lazy-init="false">
+<!--    <context:component-scan base-package="com.a"/>-->
+<!--    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>-->
+<!--    <context:property-placeholder location="application.properties"/>-->
+
+<!--&lt;!&ndash;    <import resource="spring.xml"/>&ndash;&gt;-->
+<!--    <bean id="student" name="xx,xx1,xx2" class="com.enjoy.jack.bean.Student" >-->
+<!--        <property name="username" value="jack"></property>-->
+<!--    </bean>-->
+<!--    <context:property-placeholder location="application1.properties"/>-->
+    <bean id="sB" class="com.enjoy.jack.bean.SB">
+        <property name="name" value="${name}"></property>
+        <property name="age" value="${age}"></property>
+    </bean>
+    <bean class="com.enjoy.jack.Config" id="config"/>
+
+</beans>

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework:spring-jdbc:5.3.9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jdbc/5.3.9/spring-jdbc-5.3.9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jdbc/5.3.9/spring-jdbc-5.3.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-jdbc" />
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-jdbc/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-jdbc/src/test/java" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jdbc/5.3.9/spring-jdbc-5.3.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

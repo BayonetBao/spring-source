@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework:spring-web:5.3.9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.3.9/spring-web-5.3.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-web" />
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-web/src/jmh/java" />
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-web/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-web/src/testFixtures/java" />
+      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-web/src/test/java" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.3.9/spring-web-5.3.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
