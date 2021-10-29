@@ -3,6 +3,7 @@ package com.enjoy.jack.test;
 import com.enjoy.jack.Config;
 import com.enjoy.jack.bean.*;
 import com.enjoy.jack.config.LisonFactory;
+import org.apache.catalina.startup.Tomcat;
 import org.junit.Test;
 import org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
@@ -20,6 +21,7 @@ import java.util.Queue;
  */
 public class MyTest {
     public static void main(String[] args) {
+        Tomcat tomcat = new Tomcat();
         Queue queue = null;
         int[] x = {1,2,3};
     }

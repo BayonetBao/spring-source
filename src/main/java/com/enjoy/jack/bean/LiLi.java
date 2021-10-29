@@ -1,6 +1,8 @@
 package com.enjoy.jack.bean;
 
 import org.springframework.beans.factory.FactoryBean;
+import org.springframework.stereotype.Component;
+
 
 public class LiLi implements FactoryBean {
     @Override

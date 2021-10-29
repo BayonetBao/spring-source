@@ -6,7 +6,7 @@ import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.core.PriorityOrdered;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class SetGrilAdvice implements BeanPostProcessor, PriorityOrdered {
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {

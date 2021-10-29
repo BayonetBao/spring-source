@@ -8,7 +8,7 @@ import org.springframework.aop.interceptor.ExposeInvocationInterceptor;
 import org.springframework.stereotype.Component;
 
 @Aspect
-@Component
+//@Component
 public class AnnotationAspect {
     @Pointcut(value = "execution(* com.enjoy.jack.*.*.*(..))")
     public void pc(){}
