@@ -1,5 +1,6 @@
-package com.enjoy.jack.bean;
+package com.enjoy.jack.config;
 
+import com.enjoy.jack.bean.Jack;
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.stereotype.Component;
 

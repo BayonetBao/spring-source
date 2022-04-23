@@ -5,6 +5,7 @@ import org.springframework.web.method.HandlerMethod;
 import java.util.*;
 
 public class T {
+    private int iii;
     public  int find(int n , int[][] flights, int src, int end, int k){
         int m = flights.length;
         Map<Integer,List<Integer>>  map = new HashMap<>();
@@ -40,11 +41,18 @@ public class T {
     }
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
-        list.add(0,2);
-        list.add(1,3);
-        list.add(1,4);
-        list.add(1,5);
+        char cc = '\u62DB';
+        System.out.println((char)cc);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(5);
+
         System.out.println(list);
+        StringBuffer sb = new StringBuffer();
+        sb.append(')');
+        new String(sb);
+        sb.deleteCharAt(sb.length() - 1);
 //        String s = new String();
 //        s.setI(1);
 //        System.out.println(s.getI());
@@ -117,7 +125,14 @@ public class T {
                 }
             }
             ans++;
+
         }
         return ans;
+    }
+    private class TT{
+        List<String> ttlist = new ArrayList<>();
+        private String tname;
+        private int iii;
+
     }
 }

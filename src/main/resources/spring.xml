@@ -12,7 +12,7 @@
     http://www.springframework.org/schema/aop
 	http://www.springframework.org/schema/aop/spring-aop-3.2.xsd"
     default-lazy-init="false">
-<!--    <context:component-scan base-package="com.a"/>-->
+    <context:component-scan base-package="com.a"/>
 <!--    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>-->
 <!--    <context:property-placeholder location="application.properties"/>-->
 

@@ -2,6 +2,7 @@ package com.enjoy.jack.beanDefinitionPostProcessor;
 
 import com.enjoy.jack.bean.Student;
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
@@ -9,6 +10,7 @@ import org.springframework.beans.factory.support.BeanDefinitionRegistryPostProce
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.support.GenericBeanDefinition;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ScannedGenericBeanDefinition;
 import org.springframework.stereotype.Component;
 
 /**
@@ -29,6 +31,9 @@ public class BeanPro implements BeanDefinitionRegistryPostProcessor {
     public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
         BeanDefinitionRegistry registry = (BeanDefinitionRegistry) beanFactory;
         GenericBeanDefinition student = new GenericBeanDefinition();
+        AnnotatedGenericBeanDefinition stu1 = new AnnotatedGenericBeanDefinition(Student.class);
+//        ScannedGenericBeanDefinition stu2 = new ScannedGenericBeanDefinition()
+//        student.setBeanClass(Z.class);
         student.setBeanClass(Student.class);
 
         registry.registerBeanDefinition("student",student);

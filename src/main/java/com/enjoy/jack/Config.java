@@ -11,15 +11,15 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 //@Configuration
 @ComponentScan("com.enjoy.jack")
-@PropertySource(value = "classpath:application1.properties")
-@EnableAspectJAutoProxy(proxyTargetClass = false,exposeProxy = true)
-@EnableTransactionManagement
-@EnableAsync
-@EnableWebMvc
+//@PropertySource(value = "classpath:application1.properties")
+//@EnableAspectJAutoProxy(proxyTargetClass = false,exposeProxy = true)
+//@EnableTransactionManagement
+//@EnableAsync
+//@EnableWebMvc
 
-@DependsOn
-@Scope
-@Import(Config.con.class)
+//@DependsOn
+//@Scope
+//@Import(Config.con.class)
 public class Config {
 
     @Value("sblxc")

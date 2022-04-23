@@ -1,13 +1,10 @@
 package com.enjoy.jack.config;
 
-import com.enjoy.jack.bean.LiLi;
-import com.enjoy.jack.bean.Lison;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
-//@Component
-@Configuration
+@Component
+//@Configuration
 public class Factory {
 
     @Bean

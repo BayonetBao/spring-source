@@ -2,14 +2,16 @@ package com.enjoy.jack.test;
 
 import com.enjoy.jack.Config;
 import com.enjoy.jack.bean.*;
+import com.enjoy.jack.config.Lison;
 import com.enjoy.jack.config.LisonFactory;
 import org.apache.catalina.startup.Tomcat;
 import org.junit.Test;
-import org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor;
+import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.Map;
 import java.util.Queue;
 
 /**
@@ -21,6 +23,7 @@ import java.util.Queue;
  */
 public class MyTest {
     public static void main(String[] args) {
+
         Tomcat tomcat = new Tomcat();
         Queue queue = null;
         int[] x = {1,2,3};
@@ -30,6 +33,8 @@ public class MyTest {
     public void test1() {
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring.xml");
         Student bean = applicationContext.getBean(Student.class);
+        Map map;
+        
         System.out.println(bean.getUsername());
 
 
@@ -37,7 +42,11 @@ public class MyTest {
     @Test
     public void test2() {
        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(Config.class);
-        Object x = applicationContext.getBean("SB1");
+        ConfigurableListableBeanFactory beanFactory = applicationContext.getBeanFactory();
+        DefaultListableBeanFactory defaultListableBeanFactory = (DefaultListableBeanFactory)beanFactory;
+//        System.out.println(defaultListableBeanFactory.getBeanNamesForType(Jack.class));
+        String[] beanDefinitionNames = defaultListableBeanFactory.getBeanDefinitionNames();
+        Object x = applicationContext.getBean(Student.class);
         System.out.println(x);
 
     }
@@ -68,6 +77,7 @@ public class MyTest {
         System.out.println(x);
         Object x1 = applicationContext.getBean("&factoryBeanPro");
         System.out.println(x1);
+
 
     }
     @Test

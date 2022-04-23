@@ -1,21 +1,18 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework:spring-context:5.3.4">
     <ANNOTATIONS>
-      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context" />
+      <root url="file://$PROJECT_DIR$/../../进阶课程/Spring_source/（01）2020.12.08 Spring源码编译和xml解析/spring-framework-带注释的源码工程/spring-framework/spring-context" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.3.4/spring-context-5.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../进阶课程/Spring_source/（01）2020.12.08 Spring源码编译和xml解析/spring-framework-带注释的源码工程/spring-framework/spring-context/build/libs/spring-context-5.2.8.RELEASE.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../进阶课程/Spring_source/（01）2020.12.08 Spring源码编译和xml解析/spring-framework-带注释的源码工程/spring-framework/spring-context" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.3.4/spring-context-5.3.4-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
-      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context" />
-      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context/src/jmh/java" />
-      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context/src/main/java" />
-      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context/src/testFixtures/java" />
-      <root url="file://$PROJECT_DIR$/../SpringSourceLearn/spring5.3.4/spring-context/src/test/java" />
-      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.3.4/spring-context-5.3.4-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../进阶课程/Spring_source/（01）2020.12.08 Spring源码编译和xml解析/spring-framework-带注释的源码工程/spring-framework/spring-context" />
+      <root url="file://$PROJECT_DIR$/../../进阶课程/Spring_source/（01）2020.12.08 Spring源码编译和xml解析/spring-framework-带注释的源码工程/spring-framework/spring-context/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../进阶课程/Spring_source/（01）2020.12.08 Spring源码编译和xml解析/spring-framework-带注释的源码工程/spring-framework/spring-context/src/testFixtures/java" />
+      <root url="file://$PROJECT_DIR$/../../进阶课程/Spring_source/（01）2020.12.08 Spring源码编译和xml解析/spring-framework-带注释的源码工程/spring-framework/spring-context/src/test/java" />
     </SOURCES>
   </library>
 </component>
